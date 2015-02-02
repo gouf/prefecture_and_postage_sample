@@ -1,0 +1,8 @@
+.postage
+  h2 Postage
+  p
+    |Prefecture :
+    = select_tag(:prefectures, options_from_collection_for_select(@prefectures, :id, :name), id: 'prefectures')
+  p
+    |Postage (JPY):
+    span#display_postage ----
