@@ -5,7 +5,7 @@
 $ ->
   $('#prefectures').change ->
 
-    name = $('option:selected').html()
+    name = $(this).children().filter(':selected').html()
     # .val() will gets an id
 
     jsonPref = { "name": name }
