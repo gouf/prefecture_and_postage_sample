@@ -1,4 +1,6 @@
-== README
+## About
+
+Display postage of prefectures by ajax
 
 ## Usage
 
